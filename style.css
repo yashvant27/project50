@@ -1,4 +1,23 @@
-div{
+.menu{
     display: flex;
+    background-color: black;
     justify-content: space-between;
+    color: white;
+}
+body{
+    background-color: gray;
+}
+.grid{
+    display: flex;
+    flex-wrap:wrap ;
+}
+.grid img{
+    border-radius: 50px;
+    border:solid black 5px;
+}
+.Origami{
+    border-radius: 20px;
+    width: 310px;
+    background-color: white;
+    margin: 20px;
 }
